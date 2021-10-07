@@ -1,0 +1,143 @@
+/*Elements that affeft the whole code*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  
+}
+
+/*Elements that affect the code only in body section*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  color: white;
+}
+
+/*Heading code for the header and links */
+.heading {
+    background-color: lightslategray;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.heading ul {
+    display: inline-flex;
+    float: right;
+    color: black;
+    padding: 0px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20Spx;
+    line-height: 10px;
+    border-radius: 4px;
+}
+.heading h1 {
+    width: 300px;
+    padding: 10px;
+    margin: 0;
+    font-size: 35px;
+    color: white;
+  }
+.intro {
+  display: inline-flex;
+}
+.links {
+  overflow: hidden;
+}
+.links a {
+  float: right;
+  display: block;
+  font-size: large;
+  padding: 10px;
+}
+/* Change color on hover */
+.links :hover {
+    color: black;
+  }
+
+/*Code for the different sections to give borders, etc*/
+.sections {
+    background: lightslategray;
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    color: white;
+    border-style: ridge;
+  }
+
+#aboutme {
+  background: lightslategray;
+  margin: 25px 0;
+  padding: 10px 0;
+  color: white;
+  border-style: ridge;
+}
+
+#work {
+  background: lightslategray;
+  margin: 25px 0;
+  padding: 10px 0;
+  color: white;
+  border-style: ridge;
+}
+
+#contactme {
+  background: lightslategray;
+  margin: 25px 0;
+  padding: 10px 0;
+  color: white;
+  border-style: ridge;
+}
+
+#resume {
+  background: lightslategray;
+  margin: 25px 0;
+  padding: 10px 0;
+  color: white;
+  border-style: ridge;
+}
+
+  /*Flexbox attempts*/
+
+/*#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+*/
+
+#firstBox {
+  flex: .7;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: lightslategray;
+  justify-content: center;
+}
+
+.project {
+  flex: 0 0 500px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.project_text {
+  padding: 0 10px 0px;
+}
